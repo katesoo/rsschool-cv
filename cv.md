@@ -14,3 +14,8 @@ function arrayDiff(a, b) {
         return b.indexOf(x) === -1;
         })};
 ```
+My English level is B1.
+
+My contacts:
+- [telegram](https://t.me/Oilness)
+- [instagram](https://www.instagram.com/katty_sotnikova/?hl=ru)
