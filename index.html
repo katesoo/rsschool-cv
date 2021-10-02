@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Curriculum vitae</title>
+</head>
+<body>
+   <div class="wrapper">
+       <header class="header">
+           <nav class="menu">               
+               <div class="logo">
+                   <span class="logo__name">Ekaterina Sotnikova</span>
+               </div>
+               <div class="menu__icon">
+                   <span></span>
+               </div>
+               <div class="menu__body">
+                 <ul class="menu__list">
+                    <li class="menu__item">
+                        <a data-goto="#about_me" class="menu__link" href="#about_me">About me</a>
+                    </li>
+                    <li class="menu__item"> 
+                       <a data-goto="#education" class="menu__link" href="#education">Education</a>
+                    </li>
+                   <li class="menu__item"> 
+                       <a data-goto="#skills" class="menu__link" href="#skills">My skills</a>
+                    </li>
+                   <li class="menu__item"> 
+                       <a data-goto="#projects" class="menu__link" href="#projects">My projects</a>
+                    </li>
+                   <li class="menu__item"> 
+                       <a data-goto="#languages" class="menu__link" href="#languages">Languages</a>
+                    </li>
+                    <li class="menu__item"> 
+                        <a data-goto="#contacts" class="menu__link" href="#contacts">Contacts</a>
+                    </li>
+                 </ul>
+                </div>
+           </nav>
+       </header>
+       <main class="main">
+            <div class="main__block">
+                <section class="about-me section">
+                    <div id="about_me" class="main__left">
+                        <div class="main__photo">
+                            <img src="me.jpg" alt="photo" class="main__photo__img">
+                        </div>
+                        <div class="main__left_text">
+                            <h1 class="main__text_name">Sotnikova Ekaterina</h1>
+                        </div>
+                    </div>
+                    <div class="main__right">
+                        <h2 class="main__right_h2">Hi!</h2>
+                        <p class="main__right_text">I'm 21 y.o. and now I’m a fifth-year medical student.</p>
+                        <p class="main__right_text">In my life I want to challenge myself and get better.</p>
+                    </div>
+                </section>
+                <section id="education" class="education section">
+                    <div class="education__title">
+                        <h2 class="title">
+                            Education
+                        </h2>
+                    </div>
+                    <div class="education__content _content">
+                        <p class="education__content_p">After the 9th grade, I studied at the lyceum in the chemical-biological class</p>
+                        <p class="education__content_p">Then I entered the medical university for general medicine</p>
+                        <p class="education__content_p">And now I am a 5th year student</p>
+                    </div>
+                </section>
+                <section id=skills class="my_skills section">
+                    <div class="skills__title">
+                        <h2 class="title">
+                            My skills
+                        </h2>
+                    </div>
+                    <div class="skills__content _content">
+                        <ul>
+                            <li class="skills__content_li">HTML</li>
+                            <li class="skills__content_li">CSS</li>
+                            <li class="skills__content_li">Java Script</li>
+                        </ul>
+                    </div>
+                </section>
+                <section class="code">
+                    <div class="code__title">
+                        <h2 class="title">
+                            Code example
+                        </h2>
+                    </div>
+                    <div class="my_code _content">
+                        <pre><code class="JavaScript">function arrayDiff(a, b) {
+        return a.filter(function (x){
+        return b.indexOf(x) === -1;
+        })};</code></pre>
+                      </div>
+                </section>
+                <section id="projects" class="my_projects section">
+                    <div class="projects__title">
+                        <h2 class="title">
+                            My projects
+                        </h2>
+                    </div>
+                    <div class="projects__content _content">
+                        <p><a class="projects_a" href=""><img src="Screenshot_1.png" width="300" alt="my cv"></a></p>
+                        <h3 class="projects_h3">
+                            My CV is my only project
+                        </h3>
+                        <p class="projects__discription">HTML, CSS, JS</p>
+                    </div>
+                </section>
+                <section id="languages" class="languages _section">
+                    <div class="languages__title">
+                        <h2 class="title">
+                            Languages
+                        </h2>
+                    </div>
+                    <div class="languages__content _content">
+                        <ul>
+                            <li class="languages__content_li">Russian (native speaker) </li>
+                            <li class="languages__content_li">English (B1)</li>
+                            <li class="languages__content_li">Spanish (A1)</li>
+                        </ul>
+                    </div>
+                </section>
+                <section id="contacts" class="contacts section">
+                    <div class="contacts__title">
+                        <h2 class="title">
+                            Contacts
+                        </h2>
+                    </div>
+                    <div class="contacts__content _content">
+                        <ul>
+                            <li class="contacts__content_li"><a href="mailto:katesoo26052000@gmail.com" target="_blank">G-mail</a></li>
+                            <li class="contacts__content_li"><a href="https://telegram.me/Oilness" target="_blank">Telegram</a></li>
+                            <li class="contacts__content_li"><a href="https://www.instagram.com/katty_sotnikova/?hl=ru" target="_blank">Instagram</a></li>
+                            <li class="contacts__content_li">
+                                <h4 class="number">Number <a href="tel:+375447407421">+375447407421</a></h4>
+                            </li>
+                        </ul>
+                    </div>
+                </section>                
+            </div>
+       </main>
+       <footer class="footer">
+           <div class="footer_block">
+               <div class="git-hub">
+                   <h5 class="git-hub_link"><a href="https://github.com/katesoo" target="blank">My git-hub</a></h5>
+               </div>
+               <div class="year">
+                   <h6>2021</h6>
+               </div>
+               <div class="rsschool">
+                <a href="https://rs.school/js/" target="blank">
+                    <img class="logors" src="rss.svg" alt="smth goes wrong">
+                </a>
+               </div>
+           </div>
+       </footer>
+   </div>
+   <script src="js.js"></script>
+</body>
+</html>
