@@ -7,3 +7,10 @@ In my life I want to challenge myself and getting better.
 I guess my strengths are intelligence, good memory and communication.
 
 I taught myself HTML and CSS, also Pyton and JavaScript a little bit.
+
+```javascript
+function arrayDiff(a, b) {
+        return a.filter(function (x){
+        return b.indexOf(x) === -1;
+        })};
+```
